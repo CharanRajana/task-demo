@@ -34,7 +34,7 @@ class TaskDetails extends StatelessWidget {
                 ),
                 Center(
                   child: GestureDetector(
-                    onVerticalDragEnd: (details) => Navigator.pop(context),
+                    onVerticalDragUpdate: (details) => Navigator.pop(context),
                     child: Text(
                       '$title'.toUpperCase(),
                       style: const TextStyle(
