@@ -26,12 +26,12 @@ class SmallCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.all(35.0),
+              padding: const EdgeInsets.only(left: 30, bottom: 50),
               child: Text(
-                '$id.$title'.toUpperCase(),
+                '$title'.toUpperCase(),
                 style: const TextStyle(
-                  fontSize: 45,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 40,
+                  fontWeight: FontWeight.w500,
                   color: Colors.black,
                 ),
               ),
